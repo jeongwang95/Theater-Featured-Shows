@@ -37,14 +37,13 @@ body{
     height: 50vh;
     background-size: 100% 100%;
     background-position: center;
-    position: relative;
 }
 
 .hero-text{
     color: rgba(255, 255, 255, 0.8);
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,50%);
     
@@ -95,6 +94,12 @@ footer {
     margin-top: 2%;
     padding: 2%;
     background-color: white;
+    position: relative;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
 }
 
 footer svg{
@@ -104,6 +109,10 @@ footer svg{
 footer iframe{
     width: 100%;
     height: 100%;
+}
+
+.test .show{
+    transform: translate(15%);
 }
 
 a{
