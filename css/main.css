@@ -7,10 +7,15 @@ body{
 .navbar li  a, .navbar button{
     color: black;
     border-color: black;
+    font-size: 2vh;
 }
 
 .navbar li  a:hover{
     color: gray;
+}
+
+.dropdown a:link{
+    color: black;
 }
 
 .navbar button:hover{
@@ -92,9 +97,8 @@ footer {
     background-color: white;
 }
 
-
 footer svg{
-    width: 10%;
+    width: 2vh;
 }
 
 footer iframe{
@@ -102,15 +106,6 @@ footer iframe{
     height: 100%;
 }
 
-.show{
-    transform: translate(15%);
-}
-
-.map{
-    transform: translate(-10%);
-}
-
-/* Styling all <a> tags */
 a{
     text-decoration: none;
     color: black;
